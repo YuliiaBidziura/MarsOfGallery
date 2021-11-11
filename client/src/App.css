@@ -1,0 +1,162 @@
+.menu {
+background-image: url('./img/f.jpeg');
+text-align: center;
+color: white;
+display: grid;
+}
+.menu_navBar {
+  background-color: black;
+  border: 0;
+}
+.gallery{
+    background-color: black;
+}
+.div1{
+    margin-top: 5;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        background-image: url('./img/15.jpeg');
+    }
+    .div1{
+        margin-top: 5;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        padding: 0%;
+        position: unset;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .pover1 {
+        display: flex;
+        align-items: flex;
+        grid-template-columns: 180px auto;
+        justify-content: space-between;
+    }
+   
+    .gallery {
+        display: block;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .centerImg {
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .d-flex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .btnWithIframe {
+        cursor: pointer;
+        width: 300px;
+        height: 60px;
+        background-color: rgb(117, 117, 117);
+        color: white;
+        border: 2px solid rgb(0, 0, 0) ;
+        border-radius: 0%;
+    }
+    .btnWithIframe:active {
+        cursor: pointer;
+        width: 300px;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    .btnCamera {
+        cursor: pointer;
+        background-color: rgb(117, 117, 117);
+        color: white;
+        border: 2px solid rgb(0, 0, 0) ;
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-top: 5px;
+
+    }
+    .btnCamera:active {
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    image.gallery{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery {
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+ 
+}
+@media only screen and (min-width: 1080px) { 
+    .div1{
+        margin-top: 5;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .btnWithIframe {
+        cursor: pointer;
+        width: 350px;
+        height: 60px;
+        background-color: rgb(117, 117, 117);
+        color: white;
+        border: 2px solid rgb(0, 0, 0) ;
+        border-radius: 0%;
+    }
+    .btnWithIframe:active {
+        cursor: pointer;
+        width: 350px;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    .btnCamera {
+        cursor: pointer;
+        background-color: rgb(117, 117, 117);
+        color: white;
+        border: 2px solid rgb(0, 0, 0) ;
+        margin-right: 1px;
+        margin-left: 1px;
+
+    }
+    .btnCamera:active {
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}
