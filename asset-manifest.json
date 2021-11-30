@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MarsOfGallery/static/css/main.79c86768.chunk.css",
+    "main.js": "/MarsOfGallery/static/js/main.5480fd41.chunk.js",
+    "main.js.map": "/MarsOfGallery/static/js/main.5480fd41.chunk.js.map",
+    "runtime-main.js": "/MarsOfGallery/static/js/runtime-main.9aadc227.js",
+    "runtime-main.js.map": "/MarsOfGallery/static/js/runtime-main.9aadc227.js.map",
+    "static/js/2.7606e3b8.chunk.js": "/MarsOfGallery/static/js/2.7606e3b8.chunk.js",
+    "static/js/2.7606e3b8.chunk.js.map": "/MarsOfGallery/static/js/2.7606e3b8.chunk.js.map",
+    "index.html": "/MarsOfGallery/index.html",
+    "static/css/main.79c86768.chunk.css.map": "/MarsOfGallery/static/css/main.79c86768.chunk.css.map",
+    "static/js/2.7606e3b8.chunk.js.LICENSE.txt": "/MarsOfGallery/static/js/2.7606e3b8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/MarsOfGallery/static/media/f.1a233485.jpeg",
+    "static/media/1r.0541acca.png": "/MarsOfGallery/static/media/1r.0541acca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9aadc227.js",
+    "static/js/2.7606e3b8.chunk.js",
+    "static/css/main.79c86768.chunk.css",
+    "static/js/main.5480fd41.chunk.js"
+  ]
+}
